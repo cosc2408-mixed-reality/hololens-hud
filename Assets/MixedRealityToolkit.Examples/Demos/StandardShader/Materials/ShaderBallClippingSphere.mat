@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: ShaderBallClippingSphere
   m_Shader: {fileID: 4800000, guid: 5bdea20278144b11916d77503ba1467a, type: 3}
   m_ShaderKeywords: _BORDER_LIGHT_USES_HOVER_COLOR _CLIPPING_SPHERE _DIRECTIONAL_LIGHT
@@ -137,6 +138,7 @@ Material:
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _SphericalHarmonics: 0
     - _SrcBlend: 1
     - _Stencil: 0
     - _StencilComparison: 0
@@ -144,6 +146,7 @@ Material:
     - _StencilReference: 0
     - _TriplanarMappingBlendSharpness: 4
     - _UVSec: 0
+    - _VertexColors: 0
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
