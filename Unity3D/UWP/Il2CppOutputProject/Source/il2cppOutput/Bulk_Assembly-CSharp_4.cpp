@@ -6132,16 +6132,16 @@ struct ApplicationView_t37289FBE27C61C2EBD2B55A7C592BD7DE1DC5DBF_StaticFields
 public:
 	// Cached pointer to IActivationFactory
 	Il2CppIActivationFactory* activationFactory;
-	// Cached pointer to Windows.UI.ViewManagement.IApplicationViewStatics3
-	IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130* ____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130;
 	// Cached pointer to Windows.UI.ViewManagement.IApplicationViewStatics
 	IApplicationViewStatics_t4D27C914D10068821A09E339A82C7B3E1728F800* ____iapplicationViewStatics_t4D27C914D10068821A09E339A82C7B3E1728F800;
-	// Cached pointer to Windows.UI.ViewManagement.IApplicationViewFullscreenStatics
-	IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC* ____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC;
+	// Cached pointer to Windows.UI.ViewManagement.IApplicationViewStatics3
+	IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130* ____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130;
 	// Cached pointer to Windows.UI.ViewManagement.IApplicationViewStatics2
 	IApplicationViewStatics2_tD21E620DA47983D7319754B9A37A9ED86B400409* ____iapplicationViewStatics2_tD21E620DA47983D7319754B9A37A9ED86B400409;
 	// Cached pointer to Windows.UI.ViewManagement.IApplicationViewInteropStatics
 	IApplicationViewInteropStatics_t43924EBBD595D64AB812905EAA92DE90F30CC403* ____iapplicationViewInteropStatics_t43924EBBD595D64AB812905EAA92DE90F30CC403;
+	// Cached pointer to Windows.UI.ViewManagement.IApplicationViewFullscreenStatics
+	IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC* ____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC;
 
 public:
 	inline Il2CppIActivationFactory* get_activationFactory()
@@ -6156,23 +6156,6 @@ public:
 			{
 				returnValue->Release();
 				returnValue = activationFactory;
-			}
-		}
-		return returnValue;
-	}
-
-	inline IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130* get_____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130()
-	{
-		IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130* returnValue = ____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130;
-		if (returnValue == NULL)
-		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130::IID, reinterpret_cast<void**>(&returnValue));
-			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
-
-			if (il2cpp_codegen_atomic_compare_exchange_pointer<IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130>((&____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130), returnValue, NULL) != NULL)
-			{
-				returnValue->Release();
-				returnValue = ____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130;
 			}
 		}
 		return returnValue;
@@ -6195,18 +6178,18 @@ public:
 		return returnValue;
 	}
 
-	inline IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC* get_____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC()
+	inline IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130* get_____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130()
 	{
-		IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC* returnValue = ____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC;
+		IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130* returnValue = ____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130;
 		if (returnValue == NULL)
 		{
-			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC::IID, reinterpret_cast<void**>(&returnValue));
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130::IID, reinterpret_cast<void**>(&returnValue));
 			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
 
-			if (il2cpp_codegen_atomic_compare_exchange_pointer<IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC>((&____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC), returnValue, NULL) != NULL)
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IApplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130>((&____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130), returnValue, NULL) != NULL)
 			{
 				returnValue->Release();
-				returnValue = ____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC;
+				returnValue = ____iapplicationViewStatics3_t4FB3B6B2A97A1469E5537E29050EED084E754130;
 			}
 		}
 		return returnValue;
@@ -6241,6 +6224,23 @@ public:
 			{
 				returnValue->Release();
 				returnValue = ____iapplicationViewInteropStatics_t43924EBBD595D64AB812905EAA92DE90F30CC403;
+			}
+		}
+		return returnValue;
+	}
+
+	inline IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC* get_____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC()
+	{
+		IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC* returnValue = ____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC;
+		if (returnValue == NULL)
+		{
+			const il2cpp_hresult_t hr = get_activationFactory()->QueryInterface(IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC::IID, reinterpret_cast<void**>(&returnValue));
+			il2cpp_codegen_com_raise_exception_if_failed(hr, false);
+
+			if (il2cpp_codegen_atomic_compare_exchange_pointer<IApplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC>((&____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC), returnValue, NULL) != NULL)
+			{
+				returnValue->Release();
+				returnValue = ____iapplicationViewFullscreenStatics_tC9790E9EBE97F2F1C1B647311659E97572CE86CC;
 			}
 		}
 		return returnValue;

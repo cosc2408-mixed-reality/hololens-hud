@@ -1023,9 +1023,9 @@ struct Publication_1_tAE4D0C378EB162325B62AF3129DFDD6513086714;
 // RosSharp.RosBridgeClient.Publisher
 struct Publisher_tA42BF1CDB343D8CE8010A1563D8AD2554AC15193;
 // RosSharp.RosBridgeClient.Publisher`1<System.Object>
-struct Publisher_1_t5C8D2380DE38026AB7268C2208875F7DE72DAD93;
-// RosSharp.RosBridgeClient.Publisher`1<System.Object>
 struct Publisher_1_tB7C0A404AB7CFAB7B44439C5A54A6568B27C4DC4;
+// RosSharp.RosBridgeClient.Publisher`1<System.Object>
+struct Publisher_1_t5C8D2380DE38026AB7268C2208875F7DE72DAD93;
 // RosSharp.RosBridgeClient.RosConnector
 struct RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B;
 // RosSharp.RosBridgeClient.RosSocket
@@ -1037,17 +1037,17 @@ struct ServiceCallHandler_2_tC31A947B8249533199B04E3D539557BD073BD25A;
 // RosSharp.RosBridgeClient.ServiceProvider
 struct ServiceProvider_t27BB01B39F17F5AF6AE310CC2A3D8B93C07C770A;
 // RosSharp.RosBridgeClient.ServiceProvider`2<System.Object,System.Object>
-struct ServiceProvider_2_tFBEC54EB3770477655293BA80D7C6D3AB6710996;
-// RosSharp.RosBridgeClient.ServiceProvider`2<System.Object,System.Object>
 struct ServiceProvider_2_t006F4F1ED582C8C7A8AA32368119AA90BFD638C6;
+// RosSharp.RosBridgeClient.ServiceProvider`2<System.Object,System.Object>
+struct ServiceProvider_2_tFBEC54EB3770477655293BA80D7C6D3AB6710996;
 // RosSharp.RosBridgeClient.ServiceResponse`1<System.Object>
 struct ServiceResponse_1_t2E2ECE7C48C08C8F2418F96087365D2601081FDE;
 // RosSharp.RosBridgeClient.Subscriber
 struct Subscriber_tD4F4B34C9587D28D92631E43E153ADD0C87C25F1;
 // RosSharp.RosBridgeClient.Subscriber`1<System.Object>
-struct Subscriber_1_t8F640C32DFD90372A2740ECC5D8A343CB838A408;
-// RosSharp.RosBridgeClient.Subscriber`1<System.Object>
 struct Subscriber_1_t7F647010E4CA66930E7968CD43BD00AC9EB36279;
+// RosSharp.RosBridgeClient.Subscriber`1<System.Object>
+struct Subscriber_1_t8F640C32DFD90372A2740ECC5D8A343CB838A408;
 // RosSharp.RosBridgeClient.Subscription
 struct Subscription_t14B32B906EA1284B861A2D24EBE4C6AD4623773B;
 // RosSharp.RosBridgeClient.SubscriptionHandler`1<System.Object>
@@ -13811,6 +13811,8 @@ public:
 	String_t* ___RosBridgeServerUrl_7;
 	// System.Threading.ManualResetEvent RosSharp.RosBridgeClient.RosConnector::isConnected
 	ManualResetEvent_tDFAF117B200ECA4CCF4FD09593F949A016D55408 * ___isConnected_8;
+	// System.Boolean RosSharp.RosBridgeClient.RosConnector::hasConnected
+	bool ___hasConnected_9;
 
 public:
 	inline static int32_t get_offset_of_Timeout_4() { return static_cast<int32_t>(offsetof(RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B, ___Timeout_4)); }
@@ -13854,6 +13856,14 @@ public:
 	{
 		___isConnected_8 = value;
 		Il2CppCodeGenWriteBarrier((&___isConnected_8), value);
+	}
+
+	inline static int32_t get_offset_of_hasConnected_9() { return static_cast<int32_t>(offsetof(RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B, ___hasConnected_9)); }
+	inline bool get_hasConnected_9() const { return ___hasConnected_9; }
+	inline bool* get_address_of_hasConnected_9() { return &___hasConnected_9; }
+	inline void set_hasConnected_9(bool value)
+	{
+		___hasConnected_9 = value;
 	}
 };
 
@@ -14622,10 +14632,6 @@ extern "C" IL2CPP_METHOD_ATTR void Monitor_Enter_mC5B353DD83A0B0155DF6FBCC4DF5A5
 extern "C" IL2CPP_METHOD_ATTR void Monitor_Exit_m49A1E5356D984D0B934BB97A305E2E5E207225C2 (RuntimeObject * p0, const RuntimeMethod* method);
 // System.Void RosSharp.RosBridgeClient.Communication::.ctor(System.String)
 extern "C" IL2CPP_METHOD_ATTR void Communication__ctor_mE22348E467FB84D5B83200B4FDBBE5C2159CF45D (Communication_t136D9A83EBFC84271684A929DE5C096C5F2C3F19 * __this, String_t* ___id0, const RuntimeMethod* method);
-// System.Void RosSharp.RosBridgeClient.Publisher::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void Publisher__ctor_m94230179D52D022ADC46F179B281FB79DCC1BEB7 (Publisher_tA42BF1CDB343D8CE8010A1563D8AD2554AC15193 * __this, const RuntimeMethod* method);
-// System.Void RosSharp.RosBridgeClient.Advertisement::.ctor(System.String,System.String,System.String)
-extern "C" IL2CPP_METHOD_ATTR void Advertisement__ctor_m17C33BA7CD959D4BFCF79690FBA8E6B09C1036A7 (Advertisement_t72F4DE2BDCDE61E2541A2C36DA8E739836929A8E * __this, String_t* ___id0, String_t* ___topic1, String_t* ___type2, const RuntimeMethod* method);
 // !!0 UnityEngine.Component::GetComponent<RosSharp.RosBridgeClient.RosConnector>()
 inline RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B * Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method)
 {
@@ -14637,6 +14643,10 @@ extern "C" IL2CPP_METHOD_ATTR RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC80883
 extern "C" IL2CPP_METHOD_ATTR void RosSocket_Publish_m53F4C86779801CB3D7B0A5FDD0A4AFF9C6A4C5AA (RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 * __this, String_t* p0, Message_t24FDC92D9D2D1D01162B46E664914372C0A1DF29 * p1, const RuntimeMethod* method);
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97 (MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 * __this, const RuntimeMethod* method);
+// System.Void RosSharp.RosBridgeClient.Publisher::.ctor()
+extern "C" IL2CPP_METHOD_ATTR void Publisher__ctor_m94230179D52D022ADC46F179B281FB79DCC1BEB7 (Publisher_tA42BF1CDB343D8CE8010A1563D8AD2554AC15193 * __this, const RuntimeMethod* method);
+// System.Void RosSharp.RosBridgeClient.Advertisement::.ctor(System.String,System.String,System.String)
+extern "C" IL2CPP_METHOD_ATTR void Advertisement__ctor_m17C33BA7CD959D4BFCF79690FBA8E6B09C1036A7 (Advertisement_t72F4DE2BDCDE61E2541A2C36DA8E739836929A8E * __this, String_t* ___id0, String_t* ___topic1, String_t* ___type2, const RuntimeMethod* method);
 // System.Void RosSharp.RosBridgeClient.ServiceProvider::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void ServiceProvider__ctor_m3E5E82AD572622CFC1E6C5DFF0B1B470963F24FB (ServiceProvider_t27BB01B39F17F5AF6AE310CC2A3D8B93C07C770A * __this, const RuntimeMethod* method);
 // System.Void RosSharp.RosBridgeClient.ServiceAdvertisement::.ctor(System.String,System.String)
@@ -17243,6 +17253,69 @@ extern "C" IL2CPP_METHOD_ATTR void Publication_1__ctor_m2D86C38D0AE8DF6452354520
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void RosSharp.RosBridgeClient.Publisher`1<System.Object>::Start()
+extern "C" IL2CPP_METHOD_ATTR void Publisher_1_Start_mBB3E60E1B43BD3B3408AC6092143F52C326BB8AF_gshared (Publisher_1_t5C8D2380DE38026AB7268C2208875F7DE72DAD93 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Publisher_1_Start_mBB3E60E1B43BD3B3408AC6092143F52C326BB8AF_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// publicationId = GetComponent<RosConnector>().RosSocket.Advertise<T>(Topic);
+		NullCheck((Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *)__this);
+		RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B * L_0 = Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE((Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *)__this, /*hidden argument*/Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE_RuntimeMethod_var);
+		NullCheck((RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B *)L_0);
+		RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 * L_1 = RosConnector_get_RosSocket_mB5E6B5419EEA8626EB40BAE3742F9DF969787039((RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B *)L_0, /*hidden argument*/NULL);
+		String_t* L_2 = (String_t*)__this->get_Topic_4();
+		NullCheck((RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *)L_1);
+		String_t* L_3 = ((  String_t* (*) (RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *, String_t*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0)->methodPointer)((RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *)L_1, (String_t*)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0));
+		__this->set_publicationId_5(L_3);
+		// }
+		return;
+	}
+}
+// System.Void RosSharp.RosBridgeClient.Publisher`1<System.Object>::Publish(T)
+extern "C" IL2CPP_METHOD_ATTR void Publisher_1_Publish_mBC59B1218BCFF0556C850F64795211C4739A76E8_gshared (Publisher_1_t5C8D2380DE38026AB7268C2208875F7DE72DAD93 * __this, RuntimeObject * ___message0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Publisher_1_Publish_mBC59B1218BCFF0556C850F64795211C4739A76E8_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// GetComponent<RosConnector>().RosSocket.Publish(publicationId, message);
+		NullCheck((Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *)__this);
+		RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B * L_0 = Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE((Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *)__this, /*hidden argument*/Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE_RuntimeMethod_var);
+		NullCheck((RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B *)L_0);
+		RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 * L_1 = RosConnector_get_RosSocket_mB5E6B5419EEA8626EB40BAE3742F9DF969787039((RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B *)L_0, /*hidden argument*/NULL);
+		String_t* L_2 = (String_t*)__this->get_publicationId_5();
+		RuntimeObject * L_3 = ___message0;
+		NullCheck((RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *)L_1);
+		RosSocket_Publish_m53F4C86779801CB3D7B0A5FDD0A4AFF9C6A4C5AA((RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *)L_1, (String_t*)L_2, (Message_t24FDC92D9D2D1D01162B46E664914372C0A1DF29 *)L_3, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void RosSharp.RosBridgeClient.Publisher`1<System.Object>::.ctor()
+extern "C" IL2CPP_METHOD_ATTR void Publisher_1__ctor_mAC5F020EE3266114A05FBD202F20650B42DBDFB4_gshared (Publisher_1_t5C8D2380DE38026AB7268C2208875F7DE72DAD93 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 *)__this);
+		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97((MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.String RosSharp.RosBridgeClient.Publisher`1<System.Object>::get_Id()
 extern "C" IL2CPP_METHOD_ATTR String_t* Publisher_1_get_Id_mDCB8B178EED0626F651EBEDC5B68E346B023720F_gshared (Publisher_1_tB7C0A404AB7CFAB7B44439C5A54A6568B27C4DC4 * __this, const RuntimeMethod* method)
 {
@@ -17300,69 +17373,6 @@ extern "C" IL2CPP_METHOD_ATTR Communication_t136D9A83EBFC84271684A929DE5C096C5F2
 		Publication_1_tAE4D0C378EB162325B62AF3129DFDD6513086714 * L_3 = (Publication_1_tAE4D0C378EB162325B62AF3129DFDD6513086714 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 2));
 		((  void (*) (Publication_1_tAE4D0C378EB162325B62AF3129DFDD6513086714 *, String_t*, String_t*, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3)->methodPointer)(L_3, (String_t*)L_0, (String_t*)L_1, (RuntimeObject *)((RuntimeObject *)Castclass((RuntimeObject*)L_2, IL2CPP_RGCTX_DATA(method->klass->rgctx_data, 1))), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3));
 		return L_3;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void RosSharp.RosBridgeClient.Publisher`1<System.Object>::Start()
-extern "C" IL2CPP_METHOD_ATTR void Publisher_1_Start_mBB3E60E1B43BD3B3408AC6092143F52C326BB8AF_gshared (Publisher_1_t5C8D2380DE38026AB7268C2208875F7DE72DAD93 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Publisher_1_Start_mBB3E60E1B43BD3B3408AC6092143F52C326BB8AF_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// publicationId = GetComponent<RosConnector>().RosSocket.Advertise<T>(Topic);
-		NullCheck((Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *)__this);
-		RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B * L_0 = Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE((Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *)__this, /*hidden argument*/Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE_RuntimeMethod_var);
-		NullCheck((RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B *)L_0);
-		RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 * L_1 = RosConnector_get_RosSocket_mB5E6B5419EEA8626EB40BAE3742F9DF969787039((RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B *)L_0, /*hidden argument*/NULL);
-		String_t* L_2 = (String_t*)__this->get_Topic_4();
-		NullCheck((RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *)L_1);
-		String_t* L_3 = ((  String_t* (*) (RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *, String_t*, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0)->methodPointer)((RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *)L_1, (String_t*)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0));
-		__this->set_publicationId_5(L_3);
-		// }
-		return;
-	}
-}
-// System.Void RosSharp.RosBridgeClient.Publisher`1<System.Object>::Publish(T)
-extern "C" IL2CPP_METHOD_ATTR void Publisher_1_Publish_mBC59B1218BCFF0556C850F64795211C4739A76E8_gshared (Publisher_1_t5C8D2380DE38026AB7268C2208875F7DE72DAD93 * __this, RuntimeObject * ___message0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Publisher_1_Publish_mBC59B1218BCFF0556C850F64795211C4739A76E8_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// GetComponent<RosConnector>().RosSocket.Publish(publicationId, message);
-		NullCheck((Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *)__this);
-		RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B * L_0 = Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE((Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 *)__this, /*hidden argument*/Component_GetComponent_TisRosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B_m2B59F23DB589E88B2C8B3961CA8DAE482B750EBE_RuntimeMethod_var);
-		NullCheck((RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B *)L_0);
-		RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 * L_1 = RosConnector_get_RosSocket_mB5E6B5419EEA8626EB40BAE3742F9DF969787039((RosConnector_tE3F5B646487F80CDFFC455C0F7670A0E7DBD839B *)L_0, /*hidden argument*/NULL);
-		String_t* L_2 = (String_t*)__this->get_publicationId_5();
-		RuntimeObject * L_3 = ___message0;
-		NullCheck((RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *)L_1);
-		RosSocket_Publish_m53F4C86779801CB3D7B0A5FDD0A4AFF9C6A4C5AA((RosSocket_t3583F97F73769A21F0B0F0B9C290F9B7CC808832 *)L_1, (String_t*)L_2, (Message_t24FDC92D9D2D1D01162B46E664914372C0A1DF29 *)L_3, /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void RosSharp.RosBridgeClient.Publisher`1<System.Object>::.ctor()
-extern "C" IL2CPP_METHOD_ATTR void Publisher_1__ctor_mAC5F020EE3266114A05FBD202F20650B42DBDFB4_gshared (Publisher_1_t5C8D2380DE38026AB7268C2208875F7DE72DAD93 * __this, const RuntimeMethod* method)
-{
-	{
-		NullCheck((MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 *)__this);
-		MonoBehaviour__ctor_mEAEC84B222C60319D593E456D769B3311DFCEF97((MonoBehaviour_t4A60845CF505405AF8BE8C61CC07F75CADEF6429 *)__this, /*hidden argument*/NULL);
-		return;
 	}
 }
 #ifdef __clang__

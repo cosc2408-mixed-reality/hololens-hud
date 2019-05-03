@@ -938,7 +938,7 @@ extern const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CWriteAsyncInterna
 extern const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CWriteToUnderlyingStreamAsyncU3Ed__60_t5AD21E55C1E772499F2B295232E1A19A39AE98D5_mC23CC7A60CFBA866376305EA8C8BCB6CF2EDCAA7_RuntimeMethod_var;
 extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisRuntimeObject_m0853517F037A559FE0FBD5B4CF52B7FA39AF2748_RuntimeMethod_var;
 extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_mD773551F33903004AA81B2C7E23F434F43C8E8AB_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380_RuntimeMethod_var;
 extern const RuntimeMethod* BaseInvokableCall_ThrowOnInvalidArg_TisBoolean_tB53F6830F670160873277339AA58F15CAED4399C_mCF3D0CC4E26D74FA04C637D7F91E17432EF93CB6_RuntimeMethod_var;
 extern const RuntimeMethod* BaseInvokableCall_ThrowOnInvalidArg_TisColor_t119BCA590009762C7223FDD3AF9706653AC84ED2_mB22D7492EB3224EEB3A8B878DAF0AF27EDCFBA88_RuntimeMethod_var;
 extern const RuntimeMethod* BaseInvokableCall_ThrowOnInvalidArg_TisInt32_t585191389E07734F19F3156FF88FB3EF4800D102_m542C3D16A153CF260BC7BB3ED47824E1F6757995_RuntimeMethod_var;
@@ -1107,11 +1107,11 @@ extern const uint32_t AsyncTaskMethodBuilder_Start_TisU3CU3CPlaySpeechU3Eb__0U3E
 extern const uint32_t AsyncTaskMethodBuilder_Start_TisU3CWriteAsyncInternalU3Ed__37_tA6782A6CB99838A37DF7A71D9ED94048755C318E_mBBC9F696FB165BD8316D0DB0834AE1D94F2FA92E_MetadataUsageId;
 extern const uint32_t AsyncTaskMethodBuilder_Start_TisU3CWriteToUnderlyingStreamAsyncU3Ed__60_t5AD21E55C1E772499F2B295232E1A19A39AE98D5_mC23CC7A60CFBA866376305EA8C8BCB6CF2EDCAA7_MetadataUsageId;
 extern const uint32_t AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisRuntimeObject_TisRuntimeObject_m9F5910EF685A7EA3E00A5974D7A3ED407088D5F9_MetadataUsageId;
-extern const uint32_t AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mC879A4921633E09BA2836F494660630BD5AA7C6E_MetadataUsageId;
+extern const uint32_t AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_mC39184690E2CF262F04F90052076FD76FD19F9D1_MetadataUsageId;
 extern const uint32_t AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_m7DDEE9D5BFBDDA52C6FC6AAABC2F59755A0135F3_MetadataUsageId;
 extern const uint32_t AsyncVoidMethodBuilder_Start_TisRuntimeObject_m0853517F037A559FE0FBD5B4CF52B7FA39AF2748_MetadataUsageId;
 extern const uint32_t AsyncVoidMethodBuilder_Start_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_mD773551F33903004AA81B2C7E23F434F43C8E8AB_MetadataUsageId;
-extern const uint32_t AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D_MetadataUsageId;
+extern const uint32_t AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380_MetadataUsageId;
 extern const uint32_t BaseInvokableCall_ThrowOnInvalidArg_TisBoolean_tB53F6830F670160873277339AA58F15CAED4399C_mCF3D0CC4E26D74FA04C637D7F91E17432EF93CB6_MetadataUsageId;
 extern const uint32_t BaseInvokableCall_ThrowOnInvalidArg_TisColor_t119BCA590009762C7223FDD3AF9706653AC84ED2_mB22D7492EB3224EEB3A8B878DAF0AF27EDCFBA88_MetadataUsageId;
 extern const uint32_t BaseInvokableCall_ThrowOnInvalidArg_TisInt32_t585191389E07734F19F3156FF88FB3EF4800D102_m542C3D16A153CF260BC7BB3ED47824E1F6757995_MetadataUsageId;
@@ -13320,31 +13320,31 @@ struct JsonPosition_tC0F9C56D38393456580595F4C40C0C62D6C4AD62_marshaled_com
 	int32_t ___HasIndex_4;
 };
 #endif // JSONPOSITION_TC0F9C56D38393456580595F4C40C0C62D6C4AD62_H
-#ifndef U3CSENDU3ED__17_T04A28F4349B97AD84A53A27F44F28805F136E2D6_H
-#define U3CSENDU3ED__17_T04A28F4349B97AD84A53A27F44F28805F136E2D6_H
+#ifndef U3CSENDU3ED__18_TB62A60971E4933DFCAE3E776199ADDCFB631B59C_H
+#define U3CSENDU3ED__18_TB62A60971E4933DFCAE3E776199ADDCFB631B59C_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__17
-struct  U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 
+// RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__18
+struct  U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C 
 {
 public:
-	// System.Int32 RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__17::<>1__state
+	// System.Int32 RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__18::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__17::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__18::<>t__builder
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  ___U3CU3Et__builder_1;
-	// RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__17::<>4__this
+	// RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__18::<>4__this
 	WebSocketUWPProtocol_tFA3EF59F4EA9675850680894DA08E086D662FD99 * ___U3CU3E4__this_2;
-	// System.Byte[] RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__17::data
+	// System.Byte[] RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__18::data
 	ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___data_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32> RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__17::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32> RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__18::<>u__1
 	TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD  ___U3CU3Eu__1_4;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -13352,7 +13352,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  value)
@@ -13360,7 +13360,7 @@ public:
 		___U3CU3Et__builder_1 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C, ___U3CU3E4__this_2)); }
 	inline WebSocketUWPProtocol_tFA3EF59F4EA9675850680894DA08E086D662FD99 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline WebSocketUWPProtocol_tFA3EF59F4EA9675850680894DA08E086D662FD99 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(WebSocketUWPProtocol_tFA3EF59F4EA9675850680894DA08E086D662FD99 * value)
@@ -13369,7 +13369,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
 	}
 
-	inline static int32_t get_offset_of_data_3() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6, ___data_3)); }
+	inline static int32_t get_offset_of_data_3() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C, ___data_3)); }
 	inline ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* get_data_3() const { return ___data_3; }
 	inline ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821** get_address_of_data_3() { return &___data_3; }
 	inline void set_data_3(ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* value)
@@ -13378,7 +13378,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___data_3), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6, ___U3CU3Eu__1_4)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_4() { return static_cast<int32_t>(offsetof(U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C, ___U3CU3Eu__1_4)); }
 	inline TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD  get_U3CU3Eu__1_4() const { return ___U3CU3Eu__1_4; }
 	inline TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * get_address_of_U3CU3Eu__1_4() { return &___U3CU3Eu__1_4; }
 	inline void set_U3CU3Eu__1_4(TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD  value)
@@ -13390,7 +13390,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CSENDU3ED__17_T04A28F4349B97AD84A53A27F44F28805F136E2D6_H
+#endif // U3CSENDU3ED__18_TB62A60971E4933DFCAE3E776199ADDCFB631B59C_H
 #ifndef ARGUMENTNULLEXCEPTION_T581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_H
 #define ARGUMENTNULLEXCEPTION_T581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_H
 #ifdef __clang__
@@ -18909,12 +18909,12 @@ extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_1_Start_TisU3CU3CWrite
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisRuntimeObject_TisRuntimeObject_m9F5910EF685A7EA3E00A5974D7A3ED407088D5F9_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, RuntimeObject ** ___awaiter0, RuntimeObject ** ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean>,HoloToolkit.Unity.ApplicationViewManager/<CallbackReturnValue>d__6>(TAwaiter&,TStateMachine&)
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_m7DDEE9D5BFBDDA52C6FC6AAABC2F59755A0135F3_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090 * ___awaiter0, U3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44 * ___stateMachine1, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__17>(TAwaiter&,TStateMachine&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mC879A4921633E09BA2836F494660630BD5AA7C6E_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * ___awaiter0, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * ___stateMachine1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__18>(TAwaiter&,TStateMachine&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_mC39184690E2CF262F04F90052076FD76FD19F9D1_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * ___awaiter0, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * ___stateMachine1, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<HoloToolkit.Unity.ApplicationViewManager/<CallbackReturnValue>d__6>(TStateMachine&)
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_mD773551F33903004AA81B2C7E23F434F43C8E8AB_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44 * ___stateMachine0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__17>(TStateMachine&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * ___stateMachine0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__18>(TStateMachine&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<System.Object>(TStateMachine&)
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisRuntimeObject_m0853517F037A559FE0FBD5B4CF52B7FA39AF2748_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, RuntimeObject ** ___stateMachine0, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Runtime.InteropServices.WindowsRuntime.WindowsRuntimeMarshal/EventRegistrationTokenList>::TryGetValue(TKey,TValue&)
@@ -19602,10 +19602,10 @@ inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52
 {
 	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090 *, U3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_m7DDEE9D5BFBDDA52C6FC6AAABC2F59755A0135F3_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__17>(TAwaiter&,TStateMachine&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mC879A4921633E09BA2836F494660630BD5AA7C6E (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * ___awaiter0, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * ___stateMachine1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__18>(TAwaiter&,TStateMachine&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_mC39184690E2CF262F04F90052076FD76FD19F9D1 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * ___awaiter0, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * ___stateMachine1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD *, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mC879A4921633E09BA2836F494660630BD5AA7C6E_gshared)(__this, ___awaiter0, ___stateMachine1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD *, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_mC39184690E2CF262F04F90052076FD76FD19F9D1_gshared)(__this, ___awaiter0, ___stateMachine1, method);
 }
 // System.Void HoloToolkit.Unity.ApplicationViewManager/<CallbackReturnValue>d__6::MoveNext()
 extern "C" IL2CPP_METHOD_ATTR void U3CCallbackReturnValueU3Ed__6_MoveNext_m41FBB269E987A2EC707AADF5F136C068FEE3ABFF (U3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44 * __this, const RuntimeMethod* method);
@@ -19614,12 +19614,12 @@ inline void AsyncVoidMethodBuilder_Start_TisU3CCallbackReturnValueU3Ed__6_t7C6AF
 {
 	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_mD773551F33903004AA81B2C7E23F434F43C8E8AB_gshared)(__this, ___stateMachine0, method);
 }
-// System.Void RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__17::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CSendU3Ed__17_MoveNext_mC084CA5117A44D887CF2DB8FC088449A9FA7B604 (U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__17>(TStateMachine&)
-inline void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * ___stateMachine0, const RuntimeMethod* method)
+// System.Void RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__18::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CSendU3Ed__18_MoveNext_m52A3415216DEBB115AD90028E5587B7E89FD1F56 (U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * __this, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol/<Send>d__18>(TStateMachine&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * ___stateMachine0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D_gshared)(__this, ___stateMachine0, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380_gshared)(__this, ___stateMachine0, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<System.Object>(TStateMachine&)
 inline void AsyncVoidMethodBuilder_Start_TisRuntimeObject_m0853517F037A559FE0FBD5B4CF52B7FA39AF2748 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, RuntimeObject ** ___stateMachine0, const RuntimeMethod* method)
@@ -35046,13 +35046,13 @@ extern "C"  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * _thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *>(__this + 1);
 	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_tFD52D9BC245E2C60016F2E6F4CC4A15361418090_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_m7DDEE9D5BFBDDA52C6FC6AAABC2F59755A0135F3(_thisAdjusted, ___awaiter0, ___stateMachine1, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__17>(TAwaiterU26,TStateMachineU26)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mC879A4921633E09BA2836F494660630BD5AA7C6E_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * ___awaiter0, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * ___stateMachine1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__18>(TAwaiterU26,TStateMachineU26)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_mC39184690E2CF262F04F90052076FD76FD19F9D1_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * ___awaiter0, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * ___stateMachine1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mC879A4921633E09BA2836F494660630BD5AA7C6E_MetadataUsageId);
+		il2cpp_codegen_initialize_method (AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_mC39184690E2CF262F04F90052076FD76FD19F9D1_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	MoveNextRunner_t6A0B9DE31628DAC797ABC84945D4C62B07C3E65A * V_0 = NULL;
@@ -35123,11 +35123,11 @@ IL_0034:
 			Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * L_7 = AsyncVoidMethodBuilder_get_Task_m377181C7C834736C7408C015E65AB1F29D8AB3C8((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)__this, /*hidden argument*/NULL);
 			NullCheck((Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 *)L_7);
 			int32_t L_8 = Task_get_Id_mA2A4DA7A476AFEF6FF4B4F29BF1F98D0481E28AD((Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 *)L_7, /*hidden argument*/NULL);
-			U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * L_9 = ___stateMachine1;
+			U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * L_9 = ___stateMachine1;
 			RuntimeObject * L_10 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), L_9);
 			NullCheck((RuntimeObject *)L_10);
 			Type_t * L_11 = Object_GetType_m2E0B62414ECCAA3094B703790CE88CBB2F83EA60((RuntimeObject *)L_10, /*hidden argument*/NULL);
-			*L_9 = *(U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 *)UnBox(L_10);
+			*L_9 = *(U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C *)UnBox(L_10);
 			NullCheck((MemberInfo_t *)L_11);
 			String_t* L_12 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Reflection.MemberInfo::get_Name() */, (MemberInfo_t *)L_11);
 			String_t* L_13 = String_Concat_mB78D0094592718DA6D5DB6C712A9C225631666BE((String_t*)_stringLiteral5DF1FD1F43BB24443DE17E3357A31169F3FEAC32, (String_t*)L_12, /*hidden argument*/NULL);
@@ -35137,8 +35137,8 @@ IL_0034:
 IL_0062:
 		{
 			AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 * L_14 = (AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 *)__this->get_address_of_m_coreState_1();
-			U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * L_15 = ___stateMachine1;
-			U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6  L_16 = (*(U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 *)L_15);
+			U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * L_15 = ___stateMachine1;
+			U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C  L_16 = (*(U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C *)L_15);
 			RuntimeObject * L_17 = Box(IL2CPP_RGCTX_DATA(method->rgctx_data, 0), &L_16);
 			MoveNextRunner_t6A0B9DE31628DAC797ABC84945D4C62B07C3E65A * L_18 = V_0;
 			AsyncMethodBuilderCore_PostBoxInitialization_mE935AC678191E0DD24290C8E986645E81BA18387((AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 *)(AsyncMethodBuilderCore_t4CE6C1E4B0621A6EC45CF6E0E8F1F633FFF9FF01 *)L_14, (RuntimeObject*)L_17, (MoveNextRunner_t6A0B9DE31628DAC797ABC84945D4C62B07C3E65A *)L_18, (Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 *)NULL, /*hidden argument*/NULL);
@@ -35174,10 +35174,10 @@ IL_0091:
 		return;
 	}
 }
-extern "C"  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mC879A4921633E09BA2836F494660630BD5AA7C6E_AdjustorThunk (RuntimeObject * __this, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * ___awaiter0, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * ___stateMachine1, const RuntimeMethod* method)
+extern "C"  void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_mC39184690E2CF262F04F90052076FD76FD19F9D1_AdjustorThunk (RuntimeObject * __this, TaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD * ___awaiter0, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * ___stateMachine1, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * _thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *>(__this + 1);
-	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mC879A4921633E09BA2836F494660630BD5AA7C6E(_thisAdjusted, ___awaiter0, ___stateMachine1, method);
+	AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t0D22A907BD6FD51051A4F31EE955750B12806AAD_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_mC39184690E2CF262F04F90052076FD76FD19F9D1(_thisAdjusted, ___awaiter0, ___stateMachine1, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<HoloToolkit.Unity.ApplicationViewManager_<CallbackReturnValue>d__6>(TStateMachineU26)
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_mD773551F33903004AA81B2C7E23F434F43C8E8AB_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44 * ___stateMachine0, const RuntimeMethod* method)
@@ -35248,13 +35248,13 @@ extern "C"  void AsyncVoidMethodBuilder_Start_TisU3CCallbackReturnValueU3Ed__6_t
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * _thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *>(__this + 1);
 	AsyncVoidMethodBuilder_Start_TisU3CCallbackReturnValueU3Ed__6_t7C6AFF5AF6D2803F9D6876A9A02CD5523314FB44_mD773551F33903004AA81B2C7E23F434F43C8E8AB(_thisAdjusted, ___stateMachine0, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__17>(TStateMachineU26)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * ___stateMachine0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<RosSharp.RosBridgeClient.Protocols.WebSocketUWPProtocol_<Send>d__18>(TStateMachineU26)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * ___stateMachine0, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D_MetadataUsageId);
+		il2cpp_codegen_initialize_method (AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	ExecutionContextSwitcher_t739C861A327D724A4E59DE865463B32097395159  V_0;
@@ -35271,7 +35271,7 @@ extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__
 	{
 		ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD * L_1 = (ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD *)il2cpp_codegen_object_new(ArgumentNullException_t581DF992B1F3E0EC6EFB30CC5DC43519A79B27AD_il2cpp_TypeInfo_var);
 		ArgumentNullException__ctor_mEE0C0D6FCB2D08CD7967DBB1329A0854BBED49ED(L_1, (String_t*)_stringLiteral1C8728773F47B06B3495EFEE77C3BE7FB67037E3, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, NULL, AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, NULL, AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380_RuntimeMethod_var);
 	}
 
 IL_0018:
@@ -35285,8 +35285,8 @@ IL_0025:
 	{ // begin try (depth: 1)
 		IL2CPP_RUNTIME_CLASS_INIT(ExecutionContext_t0E11C30308A4CC964D8A2EA9132F9BDCE5362C70_il2cpp_TypeInfo_var);
 		ExecutionContext_EstablishCopyOnWriteScope_mCB6F76C243352732B36223FBE3EB97653CDA39C1((ExecutionContextSwitcher_t739C861A327D724A4E59DE865463B32097395159 *)(ExecutionContextSwitcher_t739C861A327D724A4E59DE865463B32097395159 *)(&V_0), /*hidden argument*/NULL);
-		U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * L_2 = ___stateMachine0;
-		U3CSendU3Ed__17_MoveNext_mC084CA5117A44D887CF2DB8FC088449A9FA7B604((U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 *)(U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 *)L_2, /*hidden argument*/NULL);
+		U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * L_2 = ___stateMachine0;
+		U3CSendU3Ed__18_MoveNext_m52A3415216DEBB115AD90028E5587B7E89FD1F56((U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C *)(U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C *)L_2, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x42, FINALLY_003a);
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
@@ -35312,10 +35312,10 @@ IL_0042:
 		return;
 	}
 }
-extern "C"  void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D_AdjustorThunk (RuntimeObject * __this, U3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6 * ___stateMachine0, const RuntimeMethod* method)
+extern "C"  void AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380_AdjustorThunk (RuntimeObject * __this, U3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C * ___stateMachine0, const RuntimeMethod* method)
 {
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * _thisAdjusted = reinterpret_cast<AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *>(__this + 1);
-	AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__17_t04A28F4349B97AD84A53A27F44F28805F136E2D6_mA91D4737AF05526973ECFD5DD3D568F767A27A4D(_thisAdjusted, ___stateMachine0, method);
+	AsyncVoidMethodBuilder_Start_TisU3CSendU3Ed__18_tB62A60971E4933DFCAE3E776199ADDCFB631B59C_m50776F5A60977307999533A2282266E4E2FFC380(_thisAdjusted, ___stateMachine0, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<System.Object>(TStateMachineU26)
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisRuntimeObject_m0853517F037A559FE0FBD5B4CF52B7FA39AF2748_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, RuntimeObject ** ___stateMachine0, const RuntimeMethod* method)

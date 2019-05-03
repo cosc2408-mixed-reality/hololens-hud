@@ -8510,65 +8510,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // POINT_T7C3010F37F6E9DB2B792BBDAFF58C3232A3356AC_H
-#ifndef RECT_TC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA_H
-#define RECT_TC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Windows.Foundation.Rect
-struct  Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA 
-{
-public:
-	// System.Single Windows.Foundation.Rect::X
-	float ___X_0;
-	// System.Single Windows.Foundation.Rect::Y
-	float ___Y_1;
-	// System.Single Windows.Foundation.Rect::Width
-	float ___Width_2;
-	// System.Single Windows.Foundation.Rect::Height
-	float ___Height_3;
-
-public:
-	inline static int32_t get_offset_of_X_0() { return static_cast<int32_t>(offsetof(Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA, ___X_0)); }
-	inline float get_X_0() const { return ___X_0; }
-	inline float* get_address_of_X_0() { return &___X_0; }
-	inline void set_X_0(float value)
-	{
-		___X_0 = value;
-	}
-
-	inline static int32_t get_offset_of_Y_1() { return static_cast<int32_t>(offsetof(Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA, ___Y_1)); }
-	inline float get_Y_1() const { return ___Y_1; }
-	inline float* get_address_of_Y_1() { return &___Y_1; }
-	inline void set_Y_1(float value)
-	{
-		___Y_1 = value;
-	}
-
-	inline static int32_t get_offset_of_Width_2() { return static_cast<int32_t>(offsetof(Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA, ___Width_2)); }
-	inline float get_Width_2() const { return ___Width_2; }
-	inline float* get_address_of_Width_2() { return &___Width_2; }
-	inline void set_Width_2(float value)
-	{
-		___Width_2 = value;
-	}
-
-	inline static int32_t get_offset_of_Height_3() { return static_cast<int32_t>(offsetof(Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA, ___Height_3)); }
-	inline float get_Height_3() const { return ___Height_3; }
-	inline float* get_address_of_Height_3() { return &___Height_3; }
-	inline void set_Height_3(float value)
-	{
-		___Height_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // RECT_TC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA_H
 #ifndef RECT_TD277A11EF3F3CC633796B8FF0BC4822826E72BB0_H
 #define RECT_TD277A11EF3F3CC633796B8FF0BC4822826E72BB0_H
 #ifdef __clang__
@@ -8628,45 +8569,65 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // RECT_TD277A11EF3F3CC633796B8FF0BC4822826E72BB0_H
-#ifndef SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
-#define SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
+#ifndef RECT_TC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA_H
+#define RECT_TC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// Windows.Foundation.Size
-struct  Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 
+// Windows.Foundation.Rect
+struct  Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA 
 {
 public:
-	// System.Single Windows.Foundation.Size::_width
-	float ____width_0;
-	// System.Single Windows.Foundation.Size::_height
-	float ____height_1;
+	// System.Single Windows.Foundation.Rect::X
+	float ___X_0;
+	// System.Single Windows.Foundation.Rect::Y
+	float ___Y_1;
+	// System.Single Windows.Foundation.Rect::Width
+	float ___Width_2;
+	// System.Single Windows.Foundation.Rect::Height
+	float ___Height_3;
 
 public:
-	inline static int32_t get_offset_of__width_0() { return static_cast<int32_t>(offsetof(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2, ____width_0)); }
-	inline float get__width_0() const { return ____width_0; }
-	inline float* get_address_of__width_0() { return &____width_0; }
-	inline void set__width_0(float value)
+	inline static int32_t get_offset_of_X_0() { return static_cast<int32_t>(offsetof(Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA, ___X_0)); }
+	inline float get_X_0() const { return ___X_0; }
+	inline float* get_address_of_X_0() { return &___X_0; }
+	inline void set_X_0(float value)
 	{
-		____width_0 = value;
+		___X_0 = value;
 	}
 
-	inline static int32_t get_offset_of__height_1() { return static_cast<int32_t>(offsetof(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2, ____height_1)); }
-	inline float get__height_1() const { return ____height_1; }
-	inline float* get_address_of__height_1() { return &____height_1; }
-	inline void set__height_1(float value)
+	inline static int32_t get_offset_of_Y_1() { return static_cast<int32_t>(offsetof(Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA, ___Y_1)); }
+	inline float get_Y_1() const { return ___Y_1; }
+	inline float* get_address_of_Y_1() { return &___Y_1; }
+	inline void set_Y_1(float value)
 	{
-		____height_1 = value;
+		___Y_1 = value;
+	}
+
+	inline static int32_t get_offset_of_Width_2() { return static_cast<int32_t>(offsetof(Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA, ___Width_2)); }
+	inline float get_Width_2() const { return ___Width_2; }
+	inline float* get_address_of_Width_2() { return &___Width_2; }
+	inline void set_Width_2(float value)
+	{
+		___Width_2 = value;
+	}
+
+	inline static int32_t get_offset_of_Height_3() { return static_cast<int32_t>(offsetof(Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA, ___Height_3)); }
+	inline float get_Height_3() const { return ___Height_3; }
+	inline float* get_address_of_Height_3() { return &___Height_3; }
+	inline void set_Height_3(float value)
+	{
+		___Height_3 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
+#endif // RECT_TC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA_H
 #ifndef SIZE_T4766FF009097CE547F699B69250246058DA664D9_H
 #define SIZE_T4766FF009097CE547F699B69250246058DA664D9_H
 #ifdef __clang__
@@ -8706,6 +8667,45 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SIZE_T4766FF009097CE547F699B69250246058DA664D9_H
+#ifndef SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
+#define SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// Windows.Foundation.Size
+struct  Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2 
+{
+public:
+	// System.Single Windows.Foundation.Size::_width
+	float ____width_0;
+	// System.Single Windows.Foundation.Size::_height
+	float ____height_1;
+
+public:
+	inline static int32_t get_offset_of__width_0() { return static_cast<int32_t>(offsetof(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2, ____width_0)); }
+	inline float get__width_0() const { return ____width_0; }
+	inline float* get_address_of__width_0() { return &____width_0; }
+	inline void set__width_0(float value)
+	{
+		____width_0 = value;
+	}
+
+	inline static int32_t get_offset_of__height_1() { return static_cast<int32_t>(offsetof(Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2, ____height_1)); }
+	inline float get__height_1() const { return ____height_1; }
+	inline float* get_address_of__height_1() { return &____height_1; }
+	inline void set__height_1(float value)
+	{
+		____height_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SIZE_TBE9F75FCA10276DC3998237A8906733B64FB75A2_H
 #ifndef TIMESPAN_TD18885B289077804D4E82931E68E84181C072755_H
 #define TIMESPAN_TD18885B289077804D4E82931E68E84181C072755_H
 #ifdef __clang__
@@ -24793,49 +24793,49 @@ static  int32_t UnresolvedVirtualCall_930 (RuntimeObject * __this, Point_tEC1815
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_931 (RuntimeObject * __this, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect1, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_931 (RuntimeObject * __this, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect1, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_932 (RuntimeObject * __this, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_932 (RuntimeObject * __this, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_933 (RuntimeObject * __this, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect1, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_933 (RuntimeObject * __this, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect1, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_934 (RuntimeObject * __this, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_934 (RuntimeObject * __this, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_935 (RuntimeObject * __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size1, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_935 (RuntimeObject * __this, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size1, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_936 (RuntimeObject * __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_936 (RuntimeObject * __this, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_937 (RuntimeObject * __this, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size1, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_937 (RuntimeObject * __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size1, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int32_t UnresolvedVirtualCall_938 (RuntimeObject * __this, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_938 (RuntimeObject * __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
@@ -29011,73 +29011,73 @@ static  Point_t7C3010F37F6E9DB2B792BBDAFF58C3232A3356AC  UnresolvedVirtualCall_1
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_1634 (RuntimeObject * __this, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_1634 (RuntimeObject * __this, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_1635 (RuntimeObject * __this, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_1635 (RuntimeObject * __this, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  UnresolvedVirtualCall_1636 (RuntimeObject * __this, const RuntimeMethod* method)
+static  Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  UnresolvedVirtualCall_1636 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_1637 (RuntimeObject * __this, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_1637 (RuntimeObject * __this, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_1638 (RuntimeObject * __this, Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  ___Rect1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_1638 (RuntimeObject * __this, Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  ___Rect1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Rect_tD277A11EF3F3CC633796B8FF0BC4822826E72BB0  UnresolvedVirtualCall_1639 (RuntimeObject * __this, const RuntimeMethod* method)
+static  Rect_tC430FB498F3B42BBCD93E88C03BA3CBB77B60ACA  UnresolvedVirtualCall_1639 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_1640 (RuntimeObject * __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_1640 (RuntimeObject * __this, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_1641 (RuntimeObject * __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_1641 (RuntimeObject * __this, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Size_t4766FF009097CE547F699B69250246058DA664D9  UnresolvedVirtualCall_1642 (RuntimeObject * __this, const RuntimeMethod* method)
+static  Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  UnresolvedVirtualCall_1642 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_1643 (RuntimeObject * __this, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_1643 (RuntimeObject * __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size1, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  int8_t UnresolvedVirtualCall_1644 (RuntimeObject * __this, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size1, RuntimeObject * ___Object2, const RuntimeMethod* method)
+static  int8_t UnresolvedVirtualCall_1644 (RuntimeObject * __this, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size1, RuntimeObject * ___Object2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  UnresolvedVirtualCall_1645 (RuntimeObject * __this, const RuntimeMethod* method)
+static  Size_t4766FF009097CE547F699B69250246058DA664D9  UnresolvedVirtualCall_1645 (RuntimeObject * __this, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
@@ -31597,25 +31597,25 @@ static  void UnresolvedVirtualCall_2064 (RuntimeObject * __this, uint32_t ___UIn
 	il2cpp_codegen_no_return();
 }
 
-static  Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  UnresolvedVirtualCall_2065 (RuntimeObject * __this, uint32_t ___UInt321, const RuntimeMethod* method)
+static  Size_t4766FF009097CE547F699B69250246058DA664D9  UnresolvedVirtualCall_2065 (RuntimeObject * __this, uint32_t ___UInt321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_2066 (RuntimeObject * __this, uint32_t ___UInt321, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_2066 (RuntimeObject * __this, uint32_t ___UInt321, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  Size_t4766FF009097CE547F699B69250246058DA664D9  UnresolvedVirtualCall_2067 (RuntimeObject * __this, uint32_t ___UInt321, const RuntimeMethod* method)
+static  Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  UnresolvedVirtualCall_2067 (RuntimeObject * __this, uint32_t ___UInt321, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();
 }
 
-static  void UnresolvedVirtualCall_2068 (RuntimeObject * __this, uint32_t ___UInt321, Size_t4766FF009097CE547F699B69250246058DA664D9  ___Size2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_2068 (RuntimeObject * __this, uint32_t ___UInt321, Size_tBE9F75FCA10276DC3998237A8906733B64FB75A2  ___Size2, const RuntimeMethod* method)
 {
 	il2cpp_codegen_raise_execution_engine_exception(method);
 	il2cpp_codegen_no_return();

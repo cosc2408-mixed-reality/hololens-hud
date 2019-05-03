@@ -235,6 +235,7 @@
     <Compile Include="..\RosBridgeClient\UrdfTransfer\UrdfTransferToRos.cs">
       <Link>UrdfTransfer\UrdfTransferToRos.cs</Link>
     </Compile>
+    <Compile Include="Messages\Mobility_Base_Core\BatteryState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\RosBridgeClientUWP.rd.xml" />
   </ItemGroup>

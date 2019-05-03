@@ -32,6 +32,8 @@ namespace RosSharp.RosBridgeClient
 
         private ManualResetEvent isConnected = new ManualResetEvent(false);
 
+        public bool hasConnected = false;
+
         public void Awake()
         {
 #if WINDOWS_UWP
@@ -87,11 +89,16 @@ namespace RosSharp.RosBridgeClient
         private void OnConnected(object sender, EventArgs e)
         {
             isConnected.Set();
+
+            hasConnected = true;
+
             Debug.Log("Connected to RosBridge: " + RosBridgeServerUrl);
         }
 
         private void OnClosed(object sender, EventArgs e)
         {
+            hasConnected = false;
+
             isConnected.Reset();
             Debug.Log("Disconnected from RosBridge: " + RosBridgeServerUrl);
         }
