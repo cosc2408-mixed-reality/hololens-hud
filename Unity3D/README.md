@@ -7,6 +7,4 @@ __Please see the [Wiki](https://github.com/siemens/ros-sharp/wiki) for further i
 
 ---
 
-© Siemens AG, 2017-2018
-
-Author: Dr. Martin Bischoff (martin.bischoff@siemens.com)
+Authors: Matthew Atkin, Timothy Davis, Adrian Nacor
